@@ -1,0 +1,153 @@
+.content{
+    width: 100%; 
+    height:25px; 
+    background-color: black; 
+    color: aliceblue;
+}
+.mark{
+   margin-left: 200px; 
+   background-color: black; 
+   color: aliceblue;
+}
+a:hover {
+    border-bottom:2px solid red; 
+    position: relative;
+    /* top: 10px;  */
+}
+.indicator1{
+    height: 4.125rem;
+    width:  3.125rem;
+    background-color:rgba(240,248, 255, 0.8);
+}
+
+h1{
+    text-align: center;
+}
+#first1{
+   margin-left:100px;
+   margin-top: 60px;
+   height: 350px;
+   width: 250px; 
+   background-image: url("./Images/analog_home.jpg");
+   background-size: cover;
+}
+#first2{
+    margin-left:50px;
+    margin-top: 60px;
+   height: 350px;
+   width: 250px; 
+   background-image: url("./Images/Smart_category.jpg");
+   background-size: cover;
+}
+#first3{
+    margin-left:50px;
+    margin-top: 60px;
+   height: 350px;
+   width: 250px; 
+   background-image: url("./Images/hearable.jpg");
+   background-size: cover;
+}
+.tw-category-tile__content {
+    color: #fff;
+    font-size: .75rem;
+    line-height: 1rem;
+    font-weight: 500;
+    padding-left: 70px;
+    padding-top: 320px;
+    max-width: unset;
+    font-family: "RedHatDisplay",sans-serif;
+}
+#text1{
+    margin-left:4px;
+    margin-top: 70px;
+    font-family: "RedHatDisplay",sans-serif;
+    width: 100px;
+}
+#text1 h3{
+    writing-mode: vertical-lr;
+
+}
+h1{
+    font-family: "RedHatDisplay",sans-serif;
+}
+
+
+  #launch{
+    width:500px;
+    height: 500px;
+    background-image: url("./Images/launch_watch.jpg");
+    background-size: cover;
+    margin-left: 100px;
+    animation:  slideInLeft ease-in 5s;
+
+  }
+  @keyframes slideInLeft {
+    from{
+        transform:translateX(-300px);
+    }
+    to{
+        transform:translateX(0) ;
+    }
+    
+  }
+  #description{
+    width:500px;
+    height: 500px;
+    text-align: center;
+    animation:  slideInLeft ease-in 2s;
+
+  }
+  .pm-date{
+    font-size: 1em;
+    line-height: 120%;
+    text-transform: uppercase;
+    letter-spacing: .24em;
+    margin-top: 150px;
+    margin-bottom: 2.1em;
+  }
+  .pm-title{
+    font-size: 1.5625em;
+    line-height: 120%;
+    text-transform: uppercase;
+    letter-spacing: .16em;
+    margin-top: 0;
+    margin-bottom: 0.7em;
+    -webkit-hyphens: manual;
+    -moz-hyphens: manual;
+    -ms-hyphens: manual;
+    -o-hyphens: manual;
+    hyphens: manual;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; 
+
+}
+@media screen and (max-width:768px)
+{
+    #first1{
+        margin-left:0px ; 
+        width:100%;
+    } 
+    #first2{
+        width: 100%;
+        margin-left:0px ; 
+
+    } 
+    #first3{
+        width: 100%;
+        margin-left:0px ; 
+
+    }
+    #launch{
+        width: 100%;
+        margin-left: 0px;
+      
+    }
+    .tw-category-tile__content{
+           padding-left: 135px;
+    }
+}
