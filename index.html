@@ -25,7 +25,7 @@
       <span class="mark">Get 10% cashback on payment via Mobikwik wallet over Rs. 2999. T&C Apply.</span>
     </marquee>
   </div>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
     <div class="container d-flex justify-content-between align-items-center">
       <a class="navbar-brand" href="#">
         <img src="./Images/fastrack.png" alt="" width="140" height="35" class="d-inline-block align-text-top">
@@ -142,16 +142,16 @@
       </div>
     </button>
   </div>
-  <h3 class="d-md-none">FASTRACK CATEGORIES</h3>
+  <h3 class="d-lg-none">FASTRACK CATEGORIES</h3>
   <div class="container">
     <div class="row">
-      <div class="col-lg-3 col-sm-4" id="first1">
+      <div class="col-lg-3 col-md-3 col-sm-4" id="first1">
         <h6 class="tw-category-tile__content">ANALOG WATCHES</h6>
       </div>
-      <div class="col-lg-3 col-sm-4" id="first2">
+      <div class="col-lg-3 col-md-3 col-sm-4" id="first2">
         <h6 class="tw-category-tile__content">SMART WATCHES</h6>
       </div>
-      <div class="col-lg-3 col-sm-4" id="first3">
+      <div class="col-lg-3 col-md-3 col-sm-4" id="first3">
         <h6 class="tw-category-tile__content">HEARABLES</h6>
       </div>
       <div class="col-3 d-none d-lg-block" id="text1">
@@ -171,24 +171,34 @@
         <!-- Button trigger modal -->
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Prebook
           Now!</button>
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                Congratulations!!!!
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="cent2">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">PREBOOK NOW</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="form-floating">
+                        <input type="text" class="form-control mt-3 border-bottom" id="n1" placeholder="fullname">
+                        <label for="n1">Fullname</label>   
+                    </div>                 
+                    <div class="form-floating">
+                        <input type="text" class="form-control mt-3 border-bottom" id="u1" placeholder="Useranme">
+                        <label for="u1">Username</label>                    
+                    </div>
+                    <div class="form-floating">
+                        <input type="password" class="form-control mt-3 border-bottom" id="p1" placeholder="Password">
+                        <label for="p1">Password</label>                    
+                    </div><br>
+                    <div class="cent3">
+                       <button type="button" class="btn btn-dark">PREBOOK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
   </div><br>
   <h3>SHOP YOUR VIBE</h3>
@@ -352,7 +362,7 @@
           <div class="card" id="section">
             <img src="./Images/style_up.jpg" class="card-img-top" style="height: 360px;" >
             <div class="card-body">
-              <h3>style up</h3>
+              <h3>STYLE UP</h3>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia tempora sequi debitis ipsam eveniet rerum, necessitatibus enim optio accusantium est, totam magni suscipit a. Ipsam asperiores molestias deleniti dolores reprehenderit.</p>
             </div>
           </div>            
@@ -391,14 +401,15 @@
 <h3>FOLLOW US</h3>
 <div class="container" id="follow">
   <div class="div1"></div>
-<div class="div2"></div>
-<div class="div3"></div>
+  <div class="div2"></div>
+  <div class="div3"></div>
   <div class="div4"></div>
   <div class="div5"></div>
-
-  <script>
+</div><br>
+<script>
     AOS.init();
   </script>
+ 
 </body>
 
 </html>

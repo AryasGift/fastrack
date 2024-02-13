@@ -47,7 +47,7 @@ h3{
 }
 .vibe{
 display: flex;
-justify-content: center; 
+/* justify-content: center;  */
 flex-wrap: wrap;
 }
 .vibe1{
@@ -307,8 +307,18 @@ opacity: 1;
 .div5:hover .over{
   opacity: 0.8;
 }
+.footer{
+  background-color: beige;
+}
+.cent3{
+  text-align: center;
+}
+
 @media screen and (max-width:767px)
 {
+  body{
+    overflow-x: hidden;
+  }
   #first1{
      
       width:100%;
@@ -350,36 +360,14 @@ opacity: 1;
  #gallery1{
       display: none;
   }
- 
-  /* .vibe{
-    display: block;
-  }
-  .vibe1,.vibe2,.vibe3{
-    margin-left: 50px;
-  }
-  .vibe2,.vibe3{
-    margin-top: 5px;
-  } */
-  .vibe {
+ .vibe {
     flex-direction: column; /* Stack items vertically for smaller screens */
     align-items: center; /* Center items vertically */
   }
-
-  .vibe > div {
+.vibe > div {
     flex-basis: 100%; /* Full width for smaller screens */
     margin: 0 0 20px 0; /* Adjust margin as needed */
   }
-  .card {
-    height: auto; /* or set a specific height value */
-}
-
-.card-img-top {
-    height: 150px; /* Adjust the image height for mobile */
-}
-
-.card-title {
-    font-size: 1.2rem; /* Adjust the font size for mobile */
-}
 #follow {
   grid-template-areas: 
   "one two three"
@@ -388,10 +376,11 @@ opacity: 1;
 }
 #follow div:first-child {
   height: 200px; 
-  width:200px;
+
 } 
 .div2,.div3,.div4,.div5{
-  height: 100px;
+  padding: 4px;
+  height: 95px;
   width:100px;
 }
 .carousel-item img{
