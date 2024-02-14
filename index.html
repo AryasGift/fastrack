@@ -128,22 +128,22 @@
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
       data-bs-slide="prev">
-      <div class="indicator1">
-        <span class="carousel-control-prev-icon" aria-hidden="true" style="padding-top:60px;"></span>
+      <div>
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </div>
     </button>
 
     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
       data-bs-slide="next">
-      <div class="indicator1" style="padding-top:15px;">
+      <div>
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </div>
     </button>
   </div>
   <h3 class="d-lg-none">FASTRACK CATEGORIES</h3>
-  <div class="container">
+  <!-- <div class="container">
     <div class="row">
       <div class="col-lg-3 col-md-3 col-sm-4" id="first1">
         <h6 class="tw-category-tile__content">ANALOG WATCHES</h6>
@@ -153,17 +153,27 @@
       </div>
       <div class="col-lg-3 col-md-3 col-sm-4" id="first3">
         <h6 class="tw-category-tile__content">HEARABLES</h6>
-      </div>
-      <div class="col-3 d-none d-lg-block" id="text1">
+      </div> -->
+      <div class="vibe">
+        <div id="first1">
+          <h6 class="tw-category-tile__content">ANALOG WATCHES</h6>
+        </div>
+        <div id="first2">
+          <h6 class="tw-category-tile__content">SMART WATCHES</h6>
+        </div>
+        <div id="first3">
+          <h6 class="tw-category-tile__content">HEARABLES</h6>
+        </div>
+        <div class="d-none d-lg-block" id="text1">
         <h3>FASTRACK CATEGORIES</h3>
-      </div>
+        </div>
     </div>
-  </div>
- <h3>LAUNCHING SOON</h3>
- <div class="container" id="pr">
+  
+  <h3>LAUNCHING SOON</h3>
+  <div class="container" data-aos="fade-up" id="pr">
     <div class="row">
-      <div class="col-lg-4"  data-aos="fade-right"  id="launch"></div>
-      <div class="col-lg-6"   id="description">
+      <div class="col-lg-4" id="launch"></div>
+      <div class="col-lg-6" id="description">
         <h3 class="pm-date">moments of love</h3>
         <h2 class="pm-title">MINI TRÉSOR FOR YOUR VALENTINE</h2>
         <p>Discover a delicate selection of watches perfect for the deeply in love. FASTRACK's newest range of sparkling
@@ -172,51 +182,57 @@
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Prebook
           Now!</button>
       </div>
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <div class="cent2">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">PREBOOK NOW</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="form-floating">
-                        <input type="text" class="form-control mt-3 border-bottom" id="n1" placeholder="fullname">
-                        <label for="n1">Fullname</label>   
-                    </div>                 
-                    <div class="form-floating">
-                        <input type="text" class="form-control mt-3 border-bottom" id="u1" placeholder="Useranme">
-                        <label for="u1">Username</label>                    
-                    </div>
-                    <div class="form-floating">
-                        <input type="password" class="form-control mt-3 border-bottom" id="p1" placeholder="Password">
-                        <label for="p1">Password</label>                    
-                    </div><br>
-                    <div class="cent3">
-                       <button type="button" class="btn btn-dark">PREBOOK</button>
-                    </div>
-                </div>
+    </div>
+  </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="cent2">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">PREBOOK NOW</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
+            <div class="form-floating">
+              <input type="text" class="form-control mt-3 border-bottom" id="n1" placeholder="fullname">
+              <label for="n1">Fullname</label>
+            </div>
+            <div class="form-floating">
+              <input type="text" class="form-control mt-3 border-bottom" id="u1" placeholder="Useranme">
+              <label for="u1">Username</label>
+            </div>
+            <div class="form-floating">
+              <input type="password" class="form-control mt-3 border-bottom" id="p1" placeholder="Password">
+              <label for="p1">Password</label>
+            </div>
+            <div class="cent3">
+              <button type="button" class="btn btn-dark">PREBOOK</button>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-    </div>
-  </div><br>
+    
   <h3>SHOP YOUR VIBE</h3>
   <div class="vibe">
-  <div class="vibe1">
-      <img src="./Images/style1.jpg" width="300px" height="400px">
-      <div class="caption"><caption>ELAVATED CASUALS</caption></div>
+    <div class="vibe1">
+      <img src="./Images/style1.jpg" data-aos="flip-left" width="300px" height="400px">
+      <div class="caption">
+        <caption>ELAVATED CASUALS</caption>
+      </div>
     </div>
     <div class="vibe2">
-      <img src="./Images/style2.jpg" width="300px" height="400px">
-      <div class="caption"><caption>PARTY</caption></div>
+      <img src="./Images/style2.jpg" data-aos="flip-left" width="300px" height="400px">
+      <div class="caption">
+        <caption>PARTY</caption>
+      </div>
 
     </div>
     <div class="vibe3">
-      <img src="./Images/Streetwear.jpg" width="300px" height="400px">
-      <div class="caption"><caption>STREET</caption></div>
+      <img src="./Images/Streetwear.jpg" data-aos="flip-left" width="300px" height="400px">
+      <div class="caption">
+        <caption>STREET</caption>
+      </div>
     </div>
-  
   </div>
   <div class="waviy1">
     <span style="--i:1">T</span>
@@ -256,7 +272,7 @@
       </div>
       <div class="col">
         <div class="card" id="card1">
-          <img class="card-img-top" src="./Images/Trending3.jpg" alt="Card image cap" id="smartness" >
+          <img class="card-img-top" src="./Images/Trending3.jpg" alt="Card image cap" id="smartness">
           <div class="card-body">
             <h5 class="card-title">Fastrack Reflex Play+ Black : Intuitive Health & BT Calling Smartwatch</h5>
             <p class="card-text">₹ 4,995 <strike>₹ 9,995</strike>
@@ -281,12 +297,13 @@
     </div>
   </div>
   <div class="container mt-5">
-    <h3>FASTRACK <div class="style1">SMART</div></h3>
+    <h3>FASTRACK <div class="style1">SMART</div>
+    </h3>
     <div class="row">
       <div class="col-lg-12">
         <img src="./Images/fastrack_smart.jpg" class="img-fluid">
       </div>
-   </div>
+    </div>
   </div>
   <h3>SMART SELLERS</h3>
   <div class="container mt-5">
@@ -343,73 +360,119 @@
   </div><br>
   <div class="container">
     <div class="row">
-    <div class="col-lg-6">
-      <img src="./Images/featured-collections-desktop.jpg" class="image-fluid rounded" style="width:100%">
-   </div>
-   <div class="col-lg-6">
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="card" id="section">
-            <img src="./Images/TICK.jpg" class="card-img-top" style="height: 360px;">
-            <div class="card-body">
-              <h3>TICK TOCK</h3>
-              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla sequi facilis eligendi consequuntur deserunt porro magnam voluptates aliquam libero cupiditate. Et velit error non enim repellendus facilis cupiditate molestias molestiae?</p>
+      <div class="col-lg-6">
+        <img src="./Images/featured-collections-desktop.jpg" class="image-fluid rounded" style="width:100%">
+      </div>
+      <div class="col-lg-6">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card" id="section">
+                <img src="./Images/TICK.jpg" class="card-img-top" style="height: 360px;">
+                <div class="card-body">
+                  <h3>TICK TOCK</h3>
+                  <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla sequi facilis
+                    eligendi consequuntur deserunt porro magnam voluptates aliquam libero cupiditate. Et velit error non
+                    enim repellendus facilis cupiditate molestias molestiae?</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card" id="section">
+                <img src="./Images/style_up.jpg" class="card-img-top" style="height: 360px;">
+                <div class="card-body">
+                  <h3>STYLE UP</h3>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia tempora sequi
+                    debitis ipsam eveniet rerum, necessitatibus enim optio accusantium est, totam magni suscipit a.
+                    Ipsam asperiores molestias deleniti dolores reprehenderit.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card" id="section">
+                <img src="./Images/CERAME.jpg" class="card-img-top" style="height: 360px;">
+                <div class="card-body">
+                  <h3>CERAME</h3>
+                  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur atque rem
+                    eum sit vero aperiam, modi dolore deserunt dolorum illo esse. Beatae omnis ad iusto architecto et
+                    voluptas? Obcaecati, id!Nesciunt hic quibusdam necessitatibus, quod, ipsum iste eos</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card " id="section">
+                <img src="./Images/CERAME2.jpg" class="card-img-top" style="height: 360px;">
+                <div class="card-body">
+                  <h3>CERAME</h3>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt hic quibusdam
+                    necessitatibus, quod, ipsum iste eos ipsam laboriosam qui expedita officia impedit totam distinctio
+                    architecto? Numquam in eius soluta sed?</p>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="carousel-item">
-          <div class="card" id="section">
-            <img src="./Images/style_up.jpg" class="card-img-top" style="height: 360px;" >
-            <div class="card-body">
-              <h3>STYLE UP</h3>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia tempora sequi debitis ipsam eveniet rerum, necessitatibus enim optio accusantium est, totam magni suscipit a. Ipsam asperiores molestias deleniti dolores reprehenderit.</p>
-            </div>
-          </div>            
-        </div>
-        <div class="carousel-item">
-          <div class="card" id="section">
-            <img src="./Images/CERAME.jpg" class="card-img-top" style="height: 360px;">
-            <div class="card-body">
-              <h3>CERAME</h3>
-            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur atque rem eum sit vero aperiam, modi dolore deserunt dolorum illo esse. Beatae omnis ad iusto architecto et voluptas? Obcaecati, id!Nesciunt hic quibusdam necessitatibus, quod, ipsum iste eos</p>
-            </div>
-          </div>         
-        </div>
-        <div class="carousel-item">
-          <div class="card "id="section">
-            <img src="./Images/CERAME2.jpg" class="card-img-top" style="height: 360px;">
-            <div class="card-body">
-              <h3>CERAME</h3>
-             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt hic quibusdam necessitatibus, quod, ipsum iste eos ipsam laboriosam qui expedita officia impedit totam distinctio architecto? Numquam in eius soluta sed?</p>
-            </div>
-          </div>            
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon "></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon "></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
+  </div>
+  <h3>FOLLOW US</h3>
+  <div class="container" id="follow">
+    <div class="div1"></div>
+    <div class="div2"></div>
+    <div class="div3"></div>
+    <div class="div4"></div>
+    <div class="div5"></div>
+  </div>
+  <div id="Email">
+    <div class="footer1">
+      <h4>CUSTOMER SERVICE</h4>
+      <ul>
+        <li>Payment Options </li>
+        <li>Track Order </li>
+        <li>Find Store </li>
+        <li>Encircle Program</li>
+      </ul>
     </div>
-   </div>
-</div>
-<h3>FOLLOW US</h3>
-<div class="container" id="follow">
-  <div class="div1"></div>
-  <div class="div2"></div>
-  <div class="div3"></div>
-  <div class="div4"></div>
-  <div class="div5"></div>
-</div><br>
-<script>
+    <div class="footer2">
+      <h4>POLICIES</h4>
+      <ul>
+        <li>Brand Protection</li>
+        <li>Cancellation</li>
+        <li>Shipping</li>
+        <li>Warranty Policies</li>
+      </ul>
+    </div>
+    <div class="footer3">
+      <h4>ABOUT FASTRACK</h4>
+      <ul>
+        <li>About us</li>
+        <li>Help & Contact</li>
+        <li>Careers</li>
+      </ul>
+    </div>
+    <div class="footer4">
+      <h4>DOWNLOAD THE FASTRACK APP NOW!!!!!!</h4>
+      <img src="./Images/appstore.svg" alt="">
+      <img src="./Images/googlePlay.svg" alt="">
+      <p>Need help?</p>
+      <p>Chat with us on<a href="https://www.whatsapp.com"> whatsApp</a></p>
+    </div>
+  </div>
+  </div>
+  <script>
     AOS.init();
   </script>
- 
+
 </body>
 
 </html>

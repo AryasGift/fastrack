@@ -38,7 +38,7 @@ h3{
 
 }
 #first1{
- margin-left:100px;
+ margin-left:45px;
  margin-top: 50px;
  height: 350px;
  width: 250px; 
@@ -47,13 +47,10 @@ h3{
 }
 .vibe{
 display: flex;
-/* justify-content: center;  */
+justify-content: center; 
 flex-wrap: wrap;
 }
-.vibe1{
-margin-left: 120px;
 
-}
 .vibe2{
 margin-left: 50px;
 }
@@ -178,9 +175,6 @@ color: aliceblue;
 width: 300px;
 text-align: center;
 }
-
-
-
 .waviy1 {
   position: relative;
   text-align: center;
@@ -313,8 +307,33 @@ opacity: 1;
 .cent3{
   text-align: center;
 }
-
-@media screen and (max-width:820px)
+#Email{
+  margin-top: 10px;
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  padding-top: 20px;
+  
+}
+.footer2{
+  margin-left: 25px;
+}
+.footer3{
+  margin-left: 50px;
+}
+.footer4{
+  margin-left: 50px;
+  flex:1;
+}
+a{
+  color: aliceblue;
+}
+@media screen and(min-width:820) {
+  #launch{
+    margin-left: 0;
+  }
+} 
+@media screen and (max-width:767px)
 {
   body{
     overflow-x: hidden;
@@ -335,10 +354,9 @@ opacity: 1;
       margin-left:0px ; 
 
   }
-
-  #launch{
+   #launch{
       margin-left: 0px;
-    }
+  }
   .tw-category-tile__content{
          padding-left: 135px;
   }
@@ -381,9 +399,16 @@ opacity: 1;
 .div2,.div3,.div4,.div5{
   padding: 4px;
   height: 95px;
-  width:100px;
+  width:90px;
 }
 .carousel-item img{
  height:200px;
+}
+#Email{
+  display: block;
+  width: 100%;
+}
+.footer2,.footer3,.footer4{
+  margin-left: 0;
 }
 }
