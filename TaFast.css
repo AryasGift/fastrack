@@ -214,7 +214,7 @@ text-align: center;
 }
 #follow{
   display: grid;
-  gap: .5em;
+  /* gap: .5em; */
   grid-template-areas: 
   "one two three"
   "one four five";
